@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <link rel="icon" href="iconomuseo.gif" type="image/png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museo Comunitario General Tomas Mejia</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: black;
+            /* Color de fondo para el cuerpo */
+            font-family: 'Arial', sans-serif;
+        }
+
+        header {
+            background-image: url('museoafuera.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: black;
+            padding: 6em;
+            text-align: center;
+            position: relative;
+        }
+
+        h1 {
+            margin-top: 10px;
+            font-size: 3em;
+            /* Tamaño de letra más grande */
+            font-weight: bold;
+            text-transform: uppercase;
+            color: #fff;
+            /* Color del texto */
+            text-shadow: 4px 4px 6px rgba(0, 0, 0, 0.8);
+            /* Efecto 3D */
+            transition: text-shadow 0.3s ease-in-out;
+        }
+
+        h1:hover {
+            text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.8);
+            /* Ajuste al pasar el ratón */
+        }
+
+        header p {
+            color: white;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        section img {
+            width: 100%;
+            height: auto;
+            max-width: 300px;
+            float: left;
+            /* Alinea la imagen a la izquierda */
+            margin-right: 20px;
+            /* Espacio entre la imagen y el texto */
+        }
+
+        section .text-container {
+            overflow: hidden;
+            /* Para limpiar el flujo y ajustar al contenido flotante */
+        }
+
+        section h2,
+        section h5,
+        section p {
+            color: white;
+            /* Color para el texto */
+            font-family: 'Times New Roman', serif;
+            /* Tipo de letra para el texto */
+            font-size: 1.1em;
+            /* Tamaño de letra para el texto */
+        }
+
+        @media only screen and (max-width: 768px) {
+            header {
+                padding: 1em;
+            }
+
+            header img {
+                max-width: 100%;
+            }
+
+            h1 {
+                margin-top: 0;
+            }
+
+            section img {
+                max-width: 100%;
+                float: none;
+                /* Restaura la alineación predeterminada para dispositivos móviles */
+                margin-right: 0;
+                /* Restaura el margen derecho predeterminado */
+                margin-bottom: 10px;
+                /* Espacio entre la imagen y el texto en dispositivos móviles */
+            }
+        }
+
+        footer {
+            background-image: url('finalizacion.jpg');
+            /* Ajusta aquí para usar la misma imagen que en el header */
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            padding: 2em 0;
+            /* Solo un 2em en la parte superior e inferior */
+            color: #16A085;
+            text-align: center;
+        }
+
+        footer section {
+            text-align: left;
+            /* Alinea el texto a la izquierda */
+        }
+
+        /* Añade este estilo para ajustar el tamaño de los iconos */
+        footer section .social-icons img {
+            width: 50px;
+            /* Ajusta el tamaño según tus preferencias */
+        }
+
+        .footer-text {
+            color: white;
+            font-size: 14px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Museo Comunitario "General Tomas Mejía"</h1>
+        <p>SOMOS PINAL, SOMOS PUEBLO MAGICO.</p>
+    </header>
+
+    <section>
+        <div class="text-container">
+            <h2>CONÓCENOS</h2>
+            <h5>“General Tomás Mejía” Con piezas únicas y originales, el Museo Comunitario de Pinal de Amoles “General Tomás Mejía” es un testimonio de la zona norte de nuestro estado</h5>
+            <img src="ajolote1.jpg" alt="Ajolote">
+            <p>El axolote es longevo, alcanza hasta 15 años de edad alimentándose de moluscos, gusanos, larvas de insectos, crustáceos y algún pez. Esta especie, acostumbrada al papel de predador en su hábitat, ha empezado a padecer la introducción de grandes peces en su hábitat lacustre.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="text-container">
+            <!-- La imagen museoexi1.jpg está a la derecha -->
+            <img src="museoexi1.jpg" alt="Ajolote" style="float: right; margin-left: 20px;">
+            <p>El ajolote es conocido como el Peter Pan de las salamandras. Si bien la mayoría de los anfibios superan su fase acuática para comenzar su vida en tierra, el ajolote conserva en gran parte sus características larvales y pasa su vida adulta en el agua.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="text-container">
+            <img src="museoafuera.jpg" alt="Ajolote">
+            <p>El ajolote es conocido como el Peter Pan de las salamandras. Si bien la mayoría de los anfibios superan su fase acuática para comenzar su vida en tierra, el ajolote conserva en gran parte sus características larvales y pasa su vida adulta en el agua.</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="text-container">
+            <!-- La imagen museoexi1.jpg está a la derecha -->
+            <img src="ajolotepresentacion-removebg-preview.png" alt="Ajolote" style="float: right; margin-left: 20px;">
+            <p>El ajolote es conocido como el Peter Pan de las salamandras. Si bien la mayoría de los anfibios superan su fase acuática para comenzar su vida en tierra, el ajolote conserva en gran parte sus características larvales y pasa su vida adulta en el agua.</p>
+        </div>
+    </section>
+
+    <section>
+        <h2>Horario y Ubicación</h2>
+        <p>Lunes a Domingo de 08:00 a 19:00.</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d232.59084723849944!2d-99.62753701483584!3d21.13434107931746!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1706288815053!5m2!1ses-419!2smx" width="270" height="250" style="border:8;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <p>Dirección del museo.</p>
+    </section>
+
+    <footer>
+        <section>
+            <h2>Síguenos</h2>
+            <p>¡Conéctate con nosotros en las redes sociales!</p>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/profile.php?id=100069727354477&mibextid=ZbWKwL" target="_blank"><img src="facebook.jpg" alt="Facebook"></a>
+                <a href="https://www.instagram.com/TuUsuarioDeInstagram" target="_blank"><img src="instagram.jpeg" alt="Instagram"></a>
+                <!-- Puedes agregar más iconos de redes sociales según sea necesario -->
+            </div>
+            <div class="text-container footer-text">
+                <p>&copy; 2024 Museo Comunitario General Tomas Mejia. Todos los derechos reservados.</p>
+                <p>Creado por alumnos de ITQ Pinal - Ángel Vigil.</p>
+            </div>
+        </section>
+    </footer>
+</body>
+
+</html>
+
